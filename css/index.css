@@ -177,6 +177,11 @@ img {
   height: auto;
   margin-left: 8%;
 }
+@media (max-width: 500px) {
+  img {
+    margin-left: 0;
+  }
+}
 .container {
   max-width: 1000px;
   width: 100%;
