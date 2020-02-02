@@ -175,6 +175,7 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  margin-left: 8%;
 }
 .container {
   max-width: 1000px;
@@ -281,7 +282,7 @@ img {
   width: 250px;
   display: flex;
   justify-content: center;
-  margin: 2% 0 0 30%;
+  margin: 2% 0 0 45%;
   font-size: 2rem;
   background: #9ad30a;
   color: #FFFFFF;
