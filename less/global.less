@@ -8,28 +8,53 @@ html {
 
 html,
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
+    color      : @info-blue;
+    text-shadow: 1px 1px silver;
+      @media(max-width: 500px) {
+      max-width: 100%;
+      height   : auto;
+  }
 }
 
 
 h1 {
     font-size: 4rem;
+    color    : @success-green;
+    font-family: "Comic Sans MS",
+        cursive,
+        sans-serif;
 }
 
 h2 {
     font-size     : 3.2rem;
     padding-bottom: 10px;
+    color         : @success-green;
+    font-family   : "Comic Sans MS",
+        cursive,
+        sans-serif;
+        padding-top: 2%;
 }
 
 h4 {
     font-size     : 2.5rem;
     padding-bottom: 10px;
+    color         : @success-green;
+    font-family   : "Comic Sans MS",
+        cursive,
+        sans-serif;
 }
 
 p {
     line-height   : 1.5;
     font-size     : 1.6rem;
     padding-bottom: 10px;
+      @media(max-width: 500px) {
+      max-width: 100%;
+      height   : auto;
+      font-size: small;
+      line-height: normal;
+  }
 }
 
 img {
@@ -38,7 +63,8 @@ img {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     width    : 100%;
     margin   : 0 auto;
-}
+  
+    }
