@@ -300,3 +300,31 @@ img {
     margin: 0 auto;
   }
 }
+.containter-about {
+  border-bottom: 2px solid silver;
+}
+.content-section {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content-section .about-content {
+  width: 48%;
+  padding-right: 1%;
+  padding-top: 3%;
+}
+.student-pic {
+  width: 48%;
+  padding-left: 1%;
+}
+.student-pic img {
+  border-radius: 10px;
+}
+.inverse-content {
+  padding-bottom: 30px;
+}
+.inverse-content .text-content {
+  padding-left: 1%;
+  padding-right: 0;
+}
