@@ -2,28 +2,30 @@
     display        : flex;
     justify-content: space-between;
     align-items    : center;
-    padding        : 1%;
+    padding        : 6%;
+border-bottom: 2px solid @silver;
 
 
     .links {
         display        : flex;
         justify-content: space-evenly;
+       
   @media(max-width: 500px) {
       flex-wrap: wrap;
   }
     }
 
     a {
-        color: @info-blue;
+        color: @success-green;
 
         &:hover {
-            color: @success-green;
+            color: @info-blue;
         }
 
         margin          : 1%;
         padding         : 2%;
-        font-size       : 2rem;
+        font-size       : 3rem;
         text-decoration : none;
-
+        padding-right: 10%;
     }
 }
