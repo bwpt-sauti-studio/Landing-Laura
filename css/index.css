@@ -1,3 +1,7 @@
+.flex-mix {
+  display: flex;
+  flex-wrap: wrap;
+}
 html,
 body,
 div,
@@ -297,15 +301,15 @@ img {
   background: #9ad30a;
   color: #FFFFFF;
 }
+@media (max-width: 500px) {
+  .btn {
+    margin: 2% 0 0 7%;
+  }
+}
 .btn:hover {
   background-color: #0fb5fc;
   color: #9ad30a;
   color: #FFFFFF;
-}
-@media (max-width: 500px) {
-  .btn:hover {
-    margin: 0 auto;
-  }
 }
 .content-section {
   margin: 30px 0;
